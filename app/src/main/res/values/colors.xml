@@ -16,4 +16,14 @@
     <color name="secondaryDarkColor">#cbc26d</color>
     <color name="primaryTextColor">#000000</color>
     <color name="secondaryTextColor">#000000</color>
+
+
+    <color name="primaryColorRed">#ef5350</color>
+    <color name="primaryLightColorRed">#ff867c</color>
+    <color name="primaryDarkColorRed">#b61827</color>
+    <color name="secondaryColorRed">#d81b60</color>
+    <color name="secondaryLightColorRed">#ff5c8d</color>
+    <color name="secondaryDarkColorRed">#a00037</color>
+    <color name="primaryTextColorRed">#000000</color>
+    <color name="secondaryTextColorRed">#ffffff</color>
 </resources>
