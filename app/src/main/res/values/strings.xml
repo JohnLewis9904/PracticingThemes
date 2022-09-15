@@ -5,4 +5,6 @@
     <string name="nameHint">Name</string>
     <string name="passwordHint">Password</string>
     <string name="newScreen">You did it!</string>
+    <string name="greatjob">Great job! I am so proud of you!</string>
+    <string name="logout">LOG OUT</string>
 </resources>
