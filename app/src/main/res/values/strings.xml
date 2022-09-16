@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Practicing Themes</string>
     <string name="textViewText">Look at me!\nI am yellow!</string>
-    <string name="buttonText">I'm a button</string>
+    <string name="buttonText">LOG IN</string>
     <string name="nameHint">Name</string>
     <string name="passwordHint">Password</string>
     <string name="newScreen">You did it!</string>

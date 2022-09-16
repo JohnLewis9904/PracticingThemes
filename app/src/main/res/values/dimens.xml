@@ -3,7 +3,7 @@
     <dimen name="textViewWidth">150dp</dimen>
     <dimen name="textViewHeight">100dp</dimen>
     <dimen name="editTextHeight">50dp</dimen>
-    <dimen name="editTextWidth">100dp</dimen>
+    <dimen name="editTextWidth">120dp</dimen>
     <dimen name="buttonHeight">60dp</dimen>
     <dimen name="buttonWidth">140dp</dimen>
     <dimen name="topPadding">10dp</dimen>

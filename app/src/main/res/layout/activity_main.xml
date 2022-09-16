@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <!--android:background="@color/secondaryLightColor"-->
+    tools:context=".MainActivity"
+    android:background="@color/secondaryLightColor">
 
     <TextView
         android:id="@+id/textView"
@@ -13,6 +13,7 @@
         android:layout_height="@dimen/textViewHeight"
         android:gravity="center_horizontal"
         android:text="@string/textViewText"
+        android:textColor="@color/primaryDarkColor"
         android:textSize="@dimen/textSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,12 +36,14 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:background="@drawable/custom_buttons"/>
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="@dimen/editTextWidth"
         android:layout_height="@dimen/editTextHeight"
+        android:background="@drawable/custom_box"
         android:layout_marginBottom="56dp"
         android:ems="10"
         android:hint="@string/nameHint"
@@ -60,10 +63,12 @@
         android:ems="10"
         android:inputType="textPassword"
         android:hint="@string/passwordHint"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:background="@drawable/custom_box"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

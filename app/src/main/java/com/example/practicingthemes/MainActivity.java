@@ -3,6 +3,7 @@ package com.example.practicingthemes;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -17,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        EditText username = findViewById(R.id.editTextTextPersonName);
-        EditText password = findViewById(R.id.editTextTextPassword);
-        TextView myYellowText = findViewById(R.id.textView);
+        this.username = findViewById(R.id.editTextTextPersonName);
+        this.password = findViewById(R.id.editTextTextPassword);
+        this.myYellowText = findViewById(R.id.textView);
     }
 
     public void clickMe(View v) {

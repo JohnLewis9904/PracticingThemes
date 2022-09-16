@@ -11,7 +11,7 @@
         android:id="@+id/textView2"
         android:layout_width="200dp"
         android:layout_height="@dimen/textViewHeight"
-        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
         android:gravity="center_horizontal"
         android:text="@string/newScreen"
         android:textSize="@dimen/textSize"
@@ -24,7 +24,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="@string/greatjob"
-        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
         android:layout_marginTop="@dimen/margin"
         android:gravity="center_horizontal" />
 
@@ -32,7 +32,7 @@
         android:id="@+id/view"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
         android:layout_marginTop="@dimen/margin"
         android:background="@drawable/ic_baseline_emoji_emotions_24" />
 
@@ -41,5 +41,6 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="@string/logout"
-        android:layout_marginLeft="@dimen/margin"/>
+        android:layout_marginLeft="@dimen/margin"
+        android:onClick="clickMe"/>
 </LinearLayout>
